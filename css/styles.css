@@ -171,14 +171,20 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
 /*----------------------------PORTFOLIO Section Buttons----------------------------------------------*/
 .portfolio-button {
   background: #f5f4fa;
   border-radius: 4px;
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -192,7 +198,7 @@ body {
 .portfolio-button:focus {
   background-color: var(--accent-color);
 }
-/*--------Section Projects Examples-------------*/
+
 .list-box {
   width: 370px;
   height: 404px;
